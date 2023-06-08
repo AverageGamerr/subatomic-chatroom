@@ -1,3 +1,9 @@
 <title>Subatomic Chat</title>
-<button onclick="window.location.href=https://averagegamerr.github.com/subatomic-chatroom/info.html;" class="layer1" >Info</button>
-<iframe src="https://deadsimplechat.com/iMgjN2laY" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden;" class="layer2"/>
+<button onclick="info_html()" class="layer1" >Info</button>
+<iframe id = "iframe_1" src="https://deadsimplechat.com/iMgjN2laY" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden;" class="layer2"/>
+<script>
+  function info_html() {              
+        var url = "https://averagegamerr.github.io/suubatomic-chatroom/info.html";
+        document.getElementById("iframe_1").src = url;
+      }  
+</script>
